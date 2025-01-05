@@ -1,0 +1,86 @@
+/* General body styles */
+body {
+    background-color: #fff;  /* White background */
+    color: #000;  /* Black text color */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #000;  /* Black background */
+    color: #fff;  /* White text */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Header text */
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+/* Section titles */
+h2 {
+    color: #000;  /* Black color */
+    font-size: 1.75rem;
+}
+
+/* Card styles */
+section .card-body {
+    background-color: #fff;  /* White background */
+    border-radius: 10px;
+    border: 1px solid #000;  /* Black border */
+    color: #000;  /* Black text */
+}
+
+/* Footer styling */
+footer {
+    background-color: #000;  /* Black background */
+    color: #fff;  /* White text */
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* List items */
+ul li {
+    color: #000;  /* Black text */
+}
+
+/* Button styling */
+.btn {
+    background-color: #000;  /* Black background */
+    color: #fff;  /* White text */
+    border: 1px solid #000;  /* Black border */
+}
+
+.btn:hover {
+    background-color: #fff;  /* White background on hover */
+    color: #000;  /* Black text on hover */
+}
+
+/* Adjusting the container to keep the layout clean */
+.container {
+    margin-top: 30px;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.dark-mode header {
+    background-color: #333;
+}
+
+body.dark-mode footer {
+    background-color: #333;
+}
+
+body.dark-mode .btn {
+    background-color: #fff;
+    color: #000;
+}
